@@ -75,7 +75,7 @@
 
     /*메인*/
     .contact {
-        margin: 40px 20px;
+        margin: 40px 20px 50px;
     }
     .contact-items {
         color: #4d4c7d;
@@ -94,7 +94,7 @@
     .contact-sns {
         display: flex;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 50px;
     }
     .contact-sns .item {
         width: 50px;
@@ -143,10 +143,7 @@
         left: 50%;
         margin-left: -15px;
     }
-    /*디스커스*/
-    #disqus_thread{
-        margin: 0 20px;
-    }
+
     /*푸터*/
     footer{
 

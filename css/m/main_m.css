@@ -116,15 +116,32 @@
         margin-bottom: 10px;
     }
     .work .work-thumb {
+        opacity: 1;
+        display: block;
         width: 100%;
-        height: 250px;
-        background-color: orange;
+        height: auto;
+        transition: .3s;
+        backface-visibility: hidden;
     }
     .work .work-title {
+        transition: .3s;
+        opacity: 0;
         position: absolute;
-        left: 50%;
         top: 50%;
-        transform: translate(-50%);
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .work:hover .work-thumb {
+        opacity: .2;
+    }
+    .work:hover .work-title {
+        opacity: .5;
+    }
+    .work .work-title .title {
+        color: #333;
+        font-size: 16px;
+        padding: 16px 32px;
     }
 
     /*하단 고정버튼*/
