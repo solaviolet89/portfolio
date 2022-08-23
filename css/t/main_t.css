@@ -1,10 +1,10 @@
-@media ( min-width: 360px ) {
+@media ( min-width: 768px ) {
     
     header{
         width: 100%;
     }
     .inner{
-        min-width: 360px;
+        min-width: 768px;
         margin: 0 auto;
      }
     header .nav{
@@ -75,70 +75,76 @@
 
     /*메인*/
     .main{
+        text-align: center;
         margin: 40px 20px;
     }
     .main-visual {
         font-family: 'Montserrat', sans-serif;  
+        font-style: italic;
         color: #333;
     }
-    .main-visual .category {
-        background-color: #4d4c7d;
-        display: inline-block;
-        margin-bottom: 10px;
-        padding: 7px 10px;
-        font-size: 14px;
-        font-weight: 500;
-        color: #e9d5ca;
-    }
-    .main-visual .text {
-        font-family: 'Noto Sans KR', sans-serif;
-    }
-    .main-visual .text .title { 
-        font-weight: 500;
+    .main-visual .title { 
+        font-weight: 300;
         font-size: 27px;
-        line-height: 1.3;
+        line-height: 1.3em;
     }
-    .main-visual .text .sub {
+    .main-visual .sub {
         margin-top: 20px;
         font-weight: 300;
         line-height: 1.7;
     }
-    .main-visual .tool {
-        font-size: 18px;
-        font-weight: 500;
-        margin-top: 40px;
-        border-bottom: 2px solid #333;
-        display: inline-block;
-    }
-    .main-visual .tool-boxs{
-        display: flex;
-    }
-    .main-visual .tool-boxs .tool-box{
-        font-size: 24px;
-        font-weight: 500;
+    .main>.material-symbols-outlined{
+        font-size: 30px;
         text-align: center;
-        line-height: 50px;
-        margin: 10px 10px 0 0;
-        width: 50px;
-        height: 50px;
-        border-radius: 10px;
-        border: 1px solid #333;
-        box-sizing: border-box;
+        margin-top: 10px;
+        color: rgba(181, 181, 181, 0.45);
+        position: absolute;
+        left: 50%;
+        margin-left: -15px;
+        animation: motion .7s /* 속도 */
+        linear 0s   /* 처음부터 끝까지 일정 속도로 진행 */
+        infinite alternate; /* 무한 반복 */
     }
-    .main-visual .tool-boxs .tool-box:last-child{
-        margin-right: 0;
-    }
-    .work {
-        margin-bottom: 10px;
-        min-width: 360px;
-    }
-    .work .work-image {
-        width: 100%;
-        height: 500px;
-        background-color: orange;
-        margin-bottom: 10px;
+        @keyframes motion {
+        0% {margin-top: 0px;} /* 처음 위치 */
+        100% {margin-top: 10px;} /* 마지막 위치 */
     }
 
+
+    .work {
+        position: relative;
+        margin: 20px;
+    }
+    .work .work-thumb {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .3s;
+        backface-visibility: hidden;
+        border-radius: 30px;
+        box-shadow: 5px 5px 10px #9999998f;;
+    }
+    .work .work-title {
+        transition: .3s;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .work:hover .work-thumb {
+        opacity: .2;
+    }
+    .work:hover .work-title {
+        opacity: .5;
+    }
+    .work .work-title .title {
+        color: #333;
+        font-size: 16px;
+        padding: 16px 32px;
+    }
 
     /*하단 고정버튼*/
     .fixed-btn {
@@ -148,29 +154,6 @@
         right: 20px;
         color: rgb(181, 181, 181);
     }
-    .fixed-btn .fixed-btn-next{
-        width: 50px;
-        height: 50px;
-        border-radius: 100%;
-        background-color: #fff;
-        box-shadow: 0px 0px 7px rgba(153, 153, 153, .45);
-        position: relative;
-        cursor: pointer;
-        margin-bottom: 10px;
-        transition: .3s;
-    }
-    .fixed-btn .fixed-btn-next:hover{
-        background-color: #4d4c7d;
-        color: #e9d5ca;
-    }
-    .fixed-btn .fixed-btn-next a>.material-symbols-outlined {
-        font-size: 30px;
-        position: absolute;
-        top: 50%;
-        margin-top: -15px;
-        left: 50%;
-        margin-left: -15px;
-    }
     .fixed-btn .fixed-btn-top{
         width: 50px;
         height: 50px;
@@ -179,11 +162,6 @@
         box-shadow: 0px 0px 7px rgba(153, 153, 153, .45);
         position: relative;
         cursor: pointer;
-        transition: .3s;
-    }
-    .fixed-btn .fixed-btn-top:hover {
-        background-color: #4d4c7d;
-        color: #e9d5ca;
     }
     .fixed-btn .fixed-btn-top>.material-symbols-outlined {
         font-size: 30px;
