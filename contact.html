@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pf</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@0,300;0,500;0,700;1,300;1,500;1,700&family=Noto+Sans+KR:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    
+    <!-- 공통CSS -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 모바일버전CSS -->
+    <link rel="stylesheet" href="./css/m/contact_m.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script defer src="./js/common.js"></script>
+    <script defer src="./js/main_m.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <div class="inner">
+            <div class="nav">
+                
+                <div class="nav-left">
+                    <div class="logo">
+                        <a href="/">            
+                            Yoo Kwangyeol
+                        </a>
+                    </div>
+                </div>
+          
+                <div class="nav-right">
+                    <div class="gnb-menu" onclick="openGnb()">
+                        <div class="material-symbols-outlined">menu</div>
+                    </div>
+                    <div class="sub-menu" id="Gnb">
+                        <ul>
+                            <li><a href="/">Work</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                        <div class="gnb-close" onclick="closeGnb()">
+                            <div class="material-symbols-outlined">close</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    
+    <section class="contact">
+        <div class="contact-items">
+            <div class="item">
+                <span class="material-symbols-outlined">phone_iphone</span>
+                <span>+82.10.5655.5548</span> 
+            </div>
+            <div class="item">
+                <span class="material-symbols-outlined">alternate_email</span>
+                <span>solaviolet@kakao.com</span> 
+            </div>
+            <div class="item">
+                <span class="material-symbols-outlined">home</span>
+                <span>Gwangju-si, Gyeonggi-do</span> 
+            </div>
+        </div>
+
+        <div class="contact-sns">
+            <a href="" class="item"></a>        
+            <a href="" class="item"></a>   
+        </div>
+        
+    </section>
+
+    <section class="fixed-btn">
+        <div class="fixed-btn-top">
+            <div class="material-symbols-outlined">arrow_upward</div>
+        </div>
+    </section>
+
+    <!--디스커스-->
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://poteupolrio-22.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    <footer>
+        <div class="copy">&copy; <span class="this-year"></span><br>UX UI Designer. Yoo Kwangyeol</div>
+    </footer>
+
+</body>
+</html>

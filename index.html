@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pf</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@0,300;0,500;0,700;1,300;1,500;1,700&family=Noto+Sans+KR:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    
+    <!-- 공통CSS --> 
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 모바일버전CSS --> 
+    <link rel="stylesheet" href="./css/m/main_m.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script defer src="./js/common.js"></script>
+    <script defer src="./js/main_m.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <div class="inner">
+            <div class="nav">
+                
+                <div class="nav-left">
+                    <div class="logo">
+                        <a href="/">            
+                            Yoo Kwangyeol
+                        </a>
+                    </div>
+                </div>
+          
+                <div class="nav-right">
+                    <div class="gnb-menu" onclick="openGnb()">
+                        <div class="material-symbols-outlined">menu</div>
+                    </div>
+                    <div class="sub-menu" id="Gnb">
+                        <ul>
+                            <li><a href="/">Work</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                        <div class="gnb-close" onclick="closeGnb()">
+                            <div class="material-symbols-outlined">close</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="main-visual">
+            <p class="title">Hi!<br>Welcome to my portfolio.</p>
+            <p class="sub">I'm Yoo Kwangyeol, UX UI & Web Designer. Scroll down to see the work.</p>
+        </div>
+        <div class="material-symbols-outlined">keyboard_arrow_down</div>
+    </section>
+    
+    <section>
+        <div class="inner">
+            <div class="work">
+                <a href="./work1.html">
+                    <img src="" alt="" class="work-thumb">
+                    <p class="work-title">제목 영역입니다.</p>
+                </a>
+            </div>
+            <div class="work">
+                <a href="">
+                    <img src="" alt="" class="work-thumb">
+                    <p class="work-title">제목 영역입니다.</p>
+                </a>
+            </div>
+            <div class="work">
+                <a href="">
+                    <img src="" alt="" class="work-thumb">
+                    <p class="work-title">제목 영역입니다.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="fixed-btn">
+        <div class="fixed-btn-top">
+            <div class="material-symbols-outlined">arrow_upward</div>
+        </div>
+    </section>
+        
+    <footer>
+        <div class="copy">&copy; <span class="this-year"></span><br>UX UI Designer. Yoo Kwangyeol</div>
+    </footer>
+
+</body>
+</html>
