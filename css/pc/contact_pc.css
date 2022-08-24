@@ -1,0 +1,166 @@
+@media all and (min-width:768px) and (max-width:1023px) {
+    header{
+        width: 100%;
+    }
+    .inner{
+        min-width: 768px;
+        margin: 0 auto;
+     }
+    header .nav{
+        height: 100px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        border-bottom: 1px solid #36306230;
+    }
+    header .nav .nav-left{
+
+    }
+    header .nav .nav-left .logo{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+    }
+    header .nav .nav-left .logo a{
+        color: #363062;
+    }
+    header .nav .nav-right{
+
+    }
+    header .nav .nav-right .gnb-menu{
+        display: none;
+        cursor: pointer;
+    }
+    header .nav .nav-right #Gnb {
+
+    }
+    header .nav .nav-right .gnb-menu>.material-symbols-outlined {
+        font-size: 30px;
+        color: #363062;
+    }
+    header .nav .nav-right .sub-menu ul {
+        display: flex;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    header .nav .nav-right .sub-menu ul li{
+        margin-left: 20px;
+    }
+    header .nav .nav-right .sub-menu ul li a{
+        color: #363062;
+        transition: .1s;
+    }
+    header .nav .nav-right .sub-menu ul li a:hover{
+        color: #e9d5ca;
+    }
+    header .nav .nav-right .sub-menu .gnb-close {
+        display: none;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        cursor: pointer;
+    }
+    header .nav .nav-right .sub-menu .gnb-close>.material-symbols-outlined {
+        font-size: 30px;
+        color: #E9D5CA;
+    }
+
+    /*메인*/
+    .contact {
+        margin: 40px 20px;
+    }
+    .contact .text {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.7;
+        color: #4d4c7d;
+        margin: 10px 0 40px;
+        text-align: center;
+        border-bottom: 1px solid #36306230;
+        padding-bottom: 40px;
+        font-style: italic;
+    }
+    .contact .image {
+        width: 100%;
+    }
+    .contact-items {
+        color: #4d4c7d;
+        width: 768px;
+        margin: 0 auto;
+    }
+    .contact-items .item {
+        width: 100%;
+        line-height: 24px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 18px;
+        font-size: 24px;
+    }
+    .contact-items .item p{
+        margin-top: 8px;
+    }
+    .contact-sns {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .contact-sns .item {
+        width: 50px;
+        height: 50px;
+        margin-right: 24px;
+    }
+    .contact-sns .item:first-child {
+        background-image: url('../../images/kakao_logo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .contact-sns .item:last-child {
+        background-image: url('../../images/insta_logo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 0;
+    }
+    
+    /*하단 고정버튼*/
+    .fixed-btn {
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        right: 20px;
+        color: rgb(181, 181, 181);
+    }
+    .fixed-btn .fixed-btn-top{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        background-color: #fff;
+        box-shadow: 0px 0px 7px rgba(153, 153, 153, .45);
+        position: relative;
+        cursor: pointer;
+        transition: .3s;
+    }
+    .fixed-btn .fixed-btn-top:hover {
+        background-color: #4d4c7d;
+        color: #e9d5ca;
+    }
+    .fixed-btn .fixed-btn-top>.material-symbols-outlined {
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        left: 50%;
+        margin-left: -15px;
+    }
+
+    /*푸터*/
+    footer{
+
+    }
+    footer .copy{
+        text-align: center;
+        color: rgba(181, 181, 181, 0.45);
+        margin: 40px;
+    }
+}

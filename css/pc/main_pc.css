@@ -1,0 +1,187 @@
+@media all and (min-width:768px) and (max-width:1023px) {
+  header{
+      width: 100%;
+  }
+  .inner{
+      min-width: 768px;
+      margin: 0 auto;
+   }
+  header .nav{
+      height: 100px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      border-bottom: 1px solid #36306230;
+  }
+  header .nav .nav-left{
+
+  }
+  header .nav .nav-left .logo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 28px;
+  }
+  header .nav .nav-left .logo a{
+      color: #363062;
+  }
+  header .nav .nav-right{
+
+  }
+  header .nav .nav-right .gnb-menu{
+      display: none;
+      cursor: pointer;
+  }
+  header .nav .nav-right #Gnb {
+
+  }
+  header .nav .nav-right .gnb-menu>.material-symbols-outlined {
+      font-size: 30px;
+      color: #363062;
+  }
+  header .nav .nav-right .sub-menu ul {
+      display: flex;
+      font-size: 24px;
+      font-weight: 500;
+  }
+  header .nav .nav-right .sub-menu ul li{
+      margin-left: 20px;
+  }
+  header .nav .nav-right .sub-menu ul li a{
+      color: #363062;
+      transition: .1s;
+  }
+  header .nav .nav-right .sub-menu ul li a:hover{
+      color: #e9d5ca;
+  }
+  header .nav .nav-right .sub-menu .gnb-close {
+      display: none;
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      cursor: pointer;
+  }
+  header .nav .nav-right .sub-menu .gnb-close>.material-symbols-outlined {
+      font-size: 30px;
+      color: #E9D5CA;
+  }
+
+  /*메인*/
+  .main{
+      text-align: center;
+      margin: 70px 20px;
+  }
+  .main-visual {
+      font-family: 'Montserrat', sans-serif;  
+      font-style: italic;
+      color: #333;
+  }
+  .main-visual .title { 
+      font-weight: 300;
+      font-size: 34px;
+      line-height: 1.3em;
+  }
+  .main-visual .sub {
+      font-size: 24px;
+      margin-top: 20px;
+      font-weight: 300;
+      line-height: 1.7;
+  }
+  .main>.material-symbols-outlined{
+      font-size: 30px;
+      text-align: center;
+      margin-top: 10px;
+      color: rgba(181, 181, 181, 0.45);
+      position: absolute;
+      left: 50%;
+      margin-left: -15px;
+      animation: motion .7s /* 속도 */
+      linear 0s   /* 처음부터 끝까지 일정 속도로 진행 */
+      infinite alternate; /* 무한 반복 */
+  }
+      @keyframes motion {
+      0% {margin-top: 0px;} /* 처음 위치 */
+      100% {margin-top: 10px;} /* 마지막 위치 */
+  }
+
+  /*project*/
+  .inner {
+      margin: 0 20px;
+  }
+  .project {
+      display: flex;
+      margin-bottom: 20px;
+  }
+  .work {
+      position: relative;
+  }
+  .work:nth-child(odd) {
+      margin-right: 20px;
+  }
+  .work .work-thumb {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .3s;
+      backface-visibility: hidden;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px #9999998f;;
+  }
+  .work .work-title {
+      transition: .3s;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+  }
+  .work:hover .work-thumb {
+      opacity: .2;
+  }
+  .work:hover .work-title {
+      opacity: .5;
+  }
+  .work .work-title .title {
+      color: #333;
+      font-size: 24px;
+      font-weight: 700;
+  }
+
+  /*하단 고정버튼*/
+  .fixed-btn {
+      display: none;
+      position: fixed;
+      bottom: 30px;
+      right: 20px;
+      color: rgb(181, 181, 181);
+  }
+  .fixed-btn .fixed-btn-top{
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      background-color: #fff;
+      box-shadow: 0px 0px 7px rgba(153, 153, 153, .45);
+      position: relative;
+      cursor: pointer;
+  }
+  .fixed-btn .fixed-btn-top>.material-symbols-outlined {
+      font-size: 30px;
+      position: absolute;
+      top: 50%;
+      margin-top: -15px;
+      left: 50%;
+      margin-left: -15px;
+  }
+  /*푸터*/
+  footer{
+
+  }
+  footer .copy{
+      text-align: center;
+      color: rgba(181, 181, 181, 0.45);
+      margin: 40px;
+  }
+}
