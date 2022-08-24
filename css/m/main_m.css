@@ -1,10 +1,10 @@
-@media ( min-width: 360px ) {
+@media all and (max-width:767px) {
     
     header{
         width: 100%;
     }
     .inner{
-        min-width: 360px;
+        max-width: 767px;
         margin: 0 auto;
      }
     header .nav{

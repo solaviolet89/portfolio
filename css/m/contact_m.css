@@ -1,10 +1,10 @@
-@media ( min-width: 360px ) {
+@media all and (max-width:767px) {
     
     header{
         width: 100%;
     }
     .inner{
-        min-width: 360px;
+        max-width: 767px;
         margin: 0 auto;
      }
     header .nav{
@@ -84,7 +84,7 @@
         margin: 10px 0 40px;
         text-align: center;
         border-bottom: 1px solid #36306230;
-        padding-bottom: 10px;
+        padding-bottom: 40px;
     }
     .contact .image {
         width: 100%;
