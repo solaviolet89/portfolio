@@ -122,8 +122,8 @@
         height: auto;
         transition: .3s;
         backface-visibility: hidden;
-        border-radius: 30px;
-        box-shadow: 5px 5px 10px #9999998f;;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px #9999998f;;
     }
     .work .work-title {
         transition: .3s;
@@ -142,8 +142,8 @@
     }
     .work .work-title .title {
         color: #333;
-        font-size: 16px;
-        padding: 16px 32px;
+        font-size: 18px;
+        font-weight: 700;
     }
 
     /*하단 고정버튼*/

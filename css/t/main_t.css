@@ -70,7 +70,7 @@
     /*메인*/
     .main{
         text-align: center;
-        margin: 40px 20px;
+        margin: 70px 20px;
     }
     .main-visual {
         font-family: 'Montserrat', sans-serif;  
@@ -79,10 +79,11 @@
     }
     .main-visual .title { 
         font-weight: 300;
-        font-size: 27px;
+        font-size: 34px;
         line-height: 1.3em;
     }
     .main-visual .sub {
+        font-size: 24px;
         margin-top: 20px;
         font-weight: 300;
         line-height: 1.7;
@@ -104,10 +105,19 @@
         100% {margin-top: 10px;} /* 마지막 위치 */
     }
 
-
+    /*project*/
+    .inner {
+        margin: 0 20px;
+    }
+    .project {
+        display: flex;
+        margin-bottom: 20px;
+    }
     .work {
         position: relative;
-        margin: 20px;
+    }
+    .work:nth-child(odd) {
+        margin-right: 20px;
     }
     .work .work-thumb {
         opacity: 1;
@@ -116,8 +126,8 @@
         height: auto;
         transition: .3s;
         backface-visibility: hidden;
-        border-radius: 30px;
-        box-shadow: 5px 5px 10px #9999998f;;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px #9999998f;;
     }
     .work .work-title {
         transition: .3s;
@@ -136,8 +146,8 @@
     }
     .work .work-title .title {
         color: #333;
-        font-size: 16px;
-        padding: 16px 32px;
+        font-size: 24px;
+        font-weight: 700;
     }
 
     /*하단 고정버튼*/
