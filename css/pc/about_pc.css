@@ -1,9 +1,13 @@
-@media all and (min-width:768px) and (max-width:1023px) {
+@media all and (min-width:1024px) {
     header{
         width: 100%;
+        border-bottom: 1px solid #36306230;
+    }
+    .top-nav {
+  
     }
     .inner{
-        min-width: 768px;
+        min-width: 1024px;
         margin: 0 auto;
      }
     header .nav{
@@ -13,7 +17,8 @@
         align-items: center;
         justify-content: space-between;
         padding: 0 20px;
-        border-bottom: 1px solid #36306230;
+        max-width: 1080px;
+        margin: 0 auto;
     }
     header .nav .nav-left{
 
@@ -71,6 +76,10 @@
     /*메인*/
     .profile {
         margin: 0 20px;
+    }
+    .profile .container {
+        width: 1080px;
+        margin: 0 auto;
     }
     .profile-image {
         width: 154px;

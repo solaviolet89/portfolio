@@ -1,9 +1,13 @@
-@media all and (min-width:768px) and (max-width:1023px) {
+@media all and (min-width:1024px) {
   header{
       width: 100%;
+      border-bottom: 1px solid #36306230;
+  }
+  .top-nav {
+
   }
   .inner{
-      min-width: 768px;
+      min-width: 1024px;
       margin: 0 auto;
    }
   header .nav{
@@ -13,7 +17,8 @@
       align-items: center;
       justify-content: space-between;
       padding: 0 20px;
-      border-bottom: 1px solid #36306230;
+      max-width: 1080px;
+      margin: 0 auto;
   }
   header .nav .nav-left{
 
@@ -78,7 +83,7 @@
       color: #333;
   }
   .main-visual .title { 
-      font-weight: 300;
+      font-weight: 500;
       font-size: 34px;
       line-height: 1.3em;
   }
@@ -107,17 +112,18 @@
 
   /*project*/
   .inner {
-      margin: 0 20px;
+      margin: 0 auto;
+      max-width: 1080px;
   }
   .project {
       display: flex;
-      margin-bottom: 20px;
+      margin-bottom: 24px;
   }
   .work {
       position: relative;
   }
   .work:nth-child(odd) {
-      margin-right: 20px;
+      margin-right: 24px;
   }
   .work .work-thumb {
       opacity: 1;
