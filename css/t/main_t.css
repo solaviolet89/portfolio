@@ -1,4 +1,4 @@
-@media all and (min-width:768px) and (max-width:1023px) {
+@media all and (min-width:768px) and (max-width:1439px) {
     header{
         width: 100%;
     }
@@ -126,8 +126,8 @@
         height: auto;
         transition: .3s;
         backface-visibility: hidden;
-        border-radius: 10px;
-        box-shadow: 0 5px 10px #9999998f;;
+        /* border-radius: 10px;
+        box-shadow: 0 5px 10px #9999998f; */
     }
     .work .work-title {
         transition: .3s;

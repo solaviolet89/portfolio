@@ -1,4 +1,4 @@
-@media all and (min-width:1024px) {
+@media all and (min-width:1440px) {
   header{
       width: 100%;
       border-bottom: 1px solid #36306230;
@@ -7,7 +7,7 @@
 
   }
   .inner{
-      min-width: 1024px;
+      min-width: 1440px;
       margin: 0 auto;
    }
   header .nav{
@@ -17,7 +17,7 @@
       align-items: center;
       justify-content: space-between;
       padding: 0 20px;
-      max-width: 1080px;
+      max-width: 1440px;
       margin: 0 auto;
   }
   header .nav .nav-left{
@@ -113,7 +113,7 @@
   /*project*/
   .inner {
       margin: 0 auto;
-      max-width: 1080px;
+      max-width: 1440px;
   }
   .project {
       display: flex;
@@ -132,8 +132,8 @@
       height: auto;
       transition: .3s;
       backface-visibility: hidden;
-      border-radius: 10px;
-      box-shadow: 0 5px 10px #9999998f;;
+      /* border-radius: 10px;
+      box-shadow: 0 5px 10px #9999998f; */
   }
   .work .work-title {
       transition: .3s;

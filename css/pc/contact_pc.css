@@ -1,4 +1,4 @@
-@media all and (min-width:1024px) {
+@media all and (min-width:1440px) {
     header{
         width: 100%;
         border-bottom: 1px solid #36306230;
@@ -17,7 +17,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 0 20px;
-        max-width: 1080px;
+        max-width: 1440px;
         margin: 0 auto;
     }
     header .nav .nav-left{
@@ -75,7 +75,7 @@
     /*메인*/
     .contact {
         margin: 0 auto;
-        width: 1080px;
+        width: 1440px;
     }
     .contact .text {
         font-size: 18px;
@@ -95,7 +95,7 @@
     }
     .contact-items {
         color: #4d4c7d;
-        width: 1080px;
+        width: 1440px;
         margin: 0 auto;
     }
     .contact-items .item {
