@@ -80,6 +80,9 @@
     }
     .main{
         margin: 70px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .main-visual {
         font-family: 'Montserrat', sans-serif;  
@@ -106,6 +109,7 @@
         width: 710px;
         color: #999;
         margin-top: 20px;
+        margin-right: 20px;
         font-weight: 300;
         line-height: 1.5;
         font-size: 24px;
@@ -135,6 +139,11 @@
     .main-visual .tool-boxs .tool-box:last-child{
         margin-right: 0;
     }
+    .main-img {
+        width: 100%;
+        height: 800px;
+        background-color: red;
+    }
     .work {
         max-width: 1440px;
     }
@@ -142,7 +151,7 @@
         width: 100%;
         height: 500px;
         background-color: orange;
-        margin-bottom: 20px;
+        margin-bottom: 70px;
     }
 
 
