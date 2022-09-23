@@ -138,7 +138,7 @@
         opacity: .2;
     }
     .work:hover .work-title {
-        opacity: .5;
+        opacity: 1;
     }
     .work .work-title .title {
         color: #333;

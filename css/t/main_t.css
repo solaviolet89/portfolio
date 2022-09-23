@@ -137,18 +137,20 @@
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+
     }
     .work:hover .work-thumb {
         opacity: .2;
     }
     .work:hover .work-title {
-        opacity: .5;
+        opacity: 1;
     }
     .work .work-title .title {
         color: #333;
         font-size: 24px;
         font-weight: 700;
     }
+
 
     /*하단 고정버튼*/
     .fixed-btn {

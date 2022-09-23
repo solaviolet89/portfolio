@@ -102,8 +102,10 @@
         margin-top: 8px;
     }
     .contact-sns {
+        width: 768px;
+        margin: 0 auto;
         display: flex;
-        justify-content: center;
+        justify-content: end;
         margin-top: 50px;
     }
     .contact-sns .item {
