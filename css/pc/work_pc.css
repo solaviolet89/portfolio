@@ -87,6 +87,7 @@
     .main-visual {
         font-family: 'Montserrat', sans-serif;  
         color: #333;
+        width: 50%;
     }
     .main-visual .category {
         background-color: #4d4c7d;
@@ -109,7 +110,7 @@
         width: 710px;
         color: #999;
         margin-top: 20px;
-        margin-right: 20px;
+        margin-right: 24px;
         font-weight: 300;
         line-height: 1.5;
         font-size: 24px;
@@ -153,7 +154,53 @@
         background-color: orange;
         margin-bottom: 70px;
     }
-
+    .subject {
+        display: flex;
+        margin-bottom: 70px;
+    }
+    .subject .subject-sub {
+        width: 50%;
+    }
+    .subject .title {
+        color:#333;
+        font-size: 24px;
+        font-weight: 700;
+        margin: 18px 0 12px;
+    }
+    .subject .content {
+        color: #999;
+        font-size: 18px;
+        font-weight: 300;
+        padding-right: 24px;
+        line-height: 24px;
+        margin-top: 18px;
+    }
+    .subject .content2 {
+        color: #999;
+        font-size: 18px;
+        font-weight: 300;
+        padding-right: 0;
+        line-height: 24px;
+        margin-top: 18px;
+    }
+    .chapter {
+        display: flex;
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 70px;
+    }
+    .chapter .number {
+        width: 50%;
+    }
+    .chapter .chapter-title {
+        width: 50%;
+    }
+    .persona {
+        margin-bottom: 70px;
+    }
+    .persona img {
+        width: 100%;
+    }
 
     /*하단 고정버튼*/
     .fixed-btn {
