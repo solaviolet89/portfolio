@@ -69,7 +69,7 @@
 
     /*메인*/
     .contact {
-        margin: 40px 20px;
+        margin: 70px 20px;
     }
     .contact .text {
         font-size: 18px;
@@ -79,7 +79,7 @@
         margin: 10px 0 40px;
         text-align: center;
         border-bottom: 1px solid #36306230;
-        padding-bottom: 40px;
+        padding-bottom: 70px;
         font-style: italic;
     }
     .contact .image {
@@ -87,7 +87,7 @@
     }
     .contact-items {
         color: #4d4c7d;
-        width: 768px;
+        width: 100%;
         margin: 0 auto;
     }
     .contact-items .item {
@@ -102,7 +102,7 @@
         margin-top: 8px;
     }
     .contact-sns {
-        width: 768px;
+        width: 100%;
         margin: 0 auto;
         display: flex;
         justify-content: end;

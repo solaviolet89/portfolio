@@ -152,8 +152,14 @@
   }
   .work .work-title .title {
       color: #333;
-      font-size: 24px;
+      font-size: 18px;
       font-weight: 700;
+  }
+  .work .work-title .title .title-sub {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: 500;
+      opacity: .5;
   }
 
   /*하단 고정버튼*/
