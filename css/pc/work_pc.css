@@ -148,7 +148,6 @@
     }
     .work .work-image {
         width: 100%;
-        background-color: orange;
         margin-bottom: 70px;
     }
     .subject {
@@ -184,7 +183,7 @@
         display: flex;
         font-size: 48px;
         font-weight: 700;
-        margin-bottom: 70px;
+        margin: 150px 0;
     }
     .chapter .number {
         width: 50%;
@@ -198,7 +197,9 @@
     .persona img {
         width: 100%;
     }
-
+    .persona .m {
+        display: none;
+    }
     /*하단 고정버튼*/
     .fixed-btn {
         display: none;
