@@ -115,8 +115,30 @@
         display: flex;
     }
     .main-visual .tool-boxs .tool-box{
-        font-size: 24px;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 50px;
+        margin: 10px 10px 0 0;
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid #333;
+        box-sizing: border-box;
+    }
+    .main-visual .Front-end {
+        font-size: 18px;
         font-weight: 500;
+        margin-top: 30px;
+        border-bottom: 2px solid #333;
+        display: inline-block;
+    }
+    .main-visual .Front-end-boxs{
+        display: flex;
+    }
+    .main-visual .Front-end-boxs .Front-end-box{
+        font-size: 14px;
+        font-weight: 700;
         text-align: center;
         line-height: 50px;
         margin: 10px 10px 0 0;
