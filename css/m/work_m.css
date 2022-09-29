@@ -82,13 +82,13 @@
         color: #333;
     }
     .main-visual .category {
-        background-color: #4d4c7d;
+        background-color: #333;
         display: inline-block;
         margin-bottom: 10px;
         padding: 7px 10px;
         font-size: 14px;
         font-weight: 500;
-        color: #e9d5ca;
+        color: #fff;
     }
     .main-visual .text {
         font-family: 'Noto Sans KR', sans-serif;
@@ -148,6 +148,95 @@
         border: 1px solid #333;
         box-sizing: border-box;
     }
+
+
+    /*센터 정렬 코드*/
+    .center-main{
+        margin: 70px 0;
+    }
+    .center-main-visual {
+        font-family: 'Montserrat', sans-serif;  
+        color: #333;
+        text-align: center;
+    }
+    .center-main-visual .center-category {
+        background-color: #333;
+        display: inline-block;
+        margin-bottom: 10px;
+        padding: 7px 10px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .center-main-visual .center-text {
+        font-family: 'Noto Sans KR', sans-serif;
+        margin: 0 10px;
+    }
+    .center-main-visual .center-text .center-title { 
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 1.3;
+    }
+    .center-main-visual .center-text .center-sub {
+        color: #999;
+        margin-top: 20px;
+        font-weight: 300;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    .center-main-visual .center-tool {
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 70px;
+        border-bottom: 2px solid #333;
+        display: inline-block;
+    }
+    .center-main-visual .center-tool-boxs{
+        display: flex;
+        justify-content: center;
+    }
+    .center-main-visual .center-tool-boxs .center-tool-box{
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 50px;
+        margin: 10px 10px 0 0;
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid #333;
+        box-sizing: border-box;
+    }
+    .center-main-visual .center-Front-end {
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 30px;
+        margin-bottom: 8px;
+        border-bottom: 2px solid #333;
+        display: inline-block;
+    }
+    .center-main-visual .center-Front-end-boxs{
+        display: flex;
+        justify-content: center;
+    }
+    .center-main-visual .center-Front-end-boxs .center-Front-end-box{
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 50px;
+        margin: 10px 10px 0 0;
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid #333;
+        box-sizing: border-box;
+    }
+    .center-main-visual .center-Front-end-boxs .center-Front-end-box:last-child{
+        margin-right: 0;
+    }
+    /*센터 정렬 코드*/
+
+
     .main-visual .tool-boxs .tool-box:last-child{
         margin-right: 0;
     }
@@ -165,6 +254,13 @@
     .work .work-image {
         width: 100%;
         margin-bottom: 40px;
+    }
+    .go-page a {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 32px;
     }
     .branding{
         margin: 0 20px;
