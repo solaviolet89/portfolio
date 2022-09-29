@@ -107,7 +107,7 @@
         line-height: 1.3;
     }
     .main-visual .text .sub {
-        width: 710px;
+        width: 650px;
         color: #999;
         margin-top: 20px;
         margin-right: 24px;
@@ -164,6 +164,7 @@
     }
     .main-img {
         width: 100%;
+        margin-left: 46px;
     }
     .work {
         max-width: 1440px;
