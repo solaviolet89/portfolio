@@ -84,7 +84,7 @@
     .main-visual .category {
         background-color: #333;
         display: inline-block;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
         padding: 7px 10px;
         font-size: 14px;
         font-weight: 500;
@@ -162,7 +162,7 @@
     .center-main-visual .center-category {
         background-color: #333;
         display: inline-block;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         padding: 7px 10px;
         font-size: 16px;
         font-weight: 500;
@@ -293,6 +293,9 @@
         padding-right: 0;
         line-height: 24px;
         padding-bottom: 18px;
+    }
+    .subject .content2-bottom {
+        padding-bottom: 0;
     }
     .chapter {
         font-size: 24px;

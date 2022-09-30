@@ -82,7 +82,7 @@
     .main-visual .category {
         background-color: #333;
         display: inline-block;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
         padding: 7px 10px;
         font-size: 16px;
         font-weight: 500;
@@ -94,12 +94,12 @@
     .main-visual .text .title { 
         font-weight: 700;
         font-size: 34px;
-        line-height: 1.3;
+        line-height: 1.2;
     }
     .main-visual .text .sub {
         color: #999;
         margin-top: 20px;
-        margin-right: 20px;
+        margin-right: 24px;
         font-weight: 300;
         line-height: 1.5;
         font-size: 18px;
@@ -162,7 +162,7 @@
     .center-main-visual .center-category {
         background-color: #333;
         display: inline-block;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         padding: 7px 10px;
         font-size: 16px;
         font-weight: 500;
