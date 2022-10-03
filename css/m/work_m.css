@@ -256,11 +256,14 @@
         margin-bottom: 40px;
     }
     .go-page a {
-        display: block;
+        margin: 0 auto;
         text-align: center;
         font-size: 16px;
         font-weight: 700;
         margin-bottom: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .branding{
         margin: 0 20px;

@@ -255,12 +255,14 @@
         margin-bottom: 50px;
     }
     .go-page a {
-        display: block;
+        margin: 0 auto;
         text-align: center;
         font-size: 16px;
         font-weight: 700;
-        margin-right: 20px;
         margin-bottom: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .subject {
         display: flex;
