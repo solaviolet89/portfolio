@@ -152,7 +152,7 @@
 
     /*센터 정렬 코드*/
     .center-main{
-        margin: 70px 0;
+        margin: 40px 0;
     }
     .center-main-visual {
         font-family: 'Montserrat', sans-serif;  
@@ -174,7 +174,7 @@
     }
     .center-main-visual .center-text .center-title { 
         font-weight: 700;
-        font-size: 34px;
+        font-size: 27px;
         line-height: 1.3;
     }
     .center-main-visual .center-text .center-sub {
