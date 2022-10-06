@@ -293,18 +293,18 @@
     }
     .subject .content {
         color: #999;
-        font-size: 13px;
-        font-weight: 500;
+        font-size: 12px;
+        font-weight: 700;
         padding-right: 24px;
-        line-height: 22px;
+        line-height: 20px;
 
     }
     .subject .content2 {
         color: #999;
-        font-size: 13px;
-        font-weight: 500;
+        font-size: 12px;
+        font-weight: 700;
         padding-right: 0;
-        line-height: 22px;
+        line-height: 20px;
         padding-bottom: 18px;
     }
     .subject .content2-bottom {
