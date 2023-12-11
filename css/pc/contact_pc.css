@@ -111,7 +111,7 @@
     .contact-sns {
         display: flex;
         justify-content: end;
-        margin-top: 40px;
+        margin-top: 22px;
     }
     .contact-sns .item {
         width: 50px;
