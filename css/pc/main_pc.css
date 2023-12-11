@@ -192,8 +192,8 @@
 
   }
   footer .copy{
-      text-align: center;
-      color: rgba(181, 181, 181, 0.45);
-      margin: 40px;
+    text-align: center;
+    color: rgba(181, 181, 181, 0.45);
+    margin: 40px;
   }
 }
