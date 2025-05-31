@@ -79,13 +79,13 @@
   }
   .main-visual {
       font-family: 'Montserrat', sans-serif;  
-      font-style: italic;
       color: #333;
   }
   .main-visual .title { 
-      font-weight: 500;
-      font-size: 34px;
+      font-weight: 600;
+      font-size: 36px;
       line-height: 1.3em;
+      font-style: italic;
   }
   .main-visual .sub {
       font-size: 24px;
